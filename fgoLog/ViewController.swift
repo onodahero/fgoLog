@@ -138,6 +138,10 @@ class ViewController: UIViewController,UITextFieldDelegate, UIPickerViewDelegate
     }
     
     func start(sender: UIButton){
+        
+        selectedquest.drop.insert(Drop(name: "周回数"), at: 0)
+        print(selectedquest.drop[1])
+        
         let borderView: UIView = UIView(frame: CGRect(x: 0, y: 200, width: self.view.bounds.width, height: 1))
         borderView.backgroundColor = UIColor.black
         self.view.addSubview(borderView)
