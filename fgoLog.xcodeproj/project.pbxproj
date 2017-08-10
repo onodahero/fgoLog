@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68726DF91F3BF68B0078ED22 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68726DF71F3BF68B0078ED22 /* CustomTableViewCell.swift */; };
+		68726DFA1F3BF68B0078ED22 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68726DF81F3BF68B0078ED22 /* CustomTableViewCell.xib */; };
 		68ED7C281F395ABD0052AC91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ED7C271F395ABD0052AC91 /* AppDelegate.swift */; };
 		68ED7C2A1F395ABD0052AC91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ED7C291F395ABD0052AC91 /* ViewController.swift */; };
 		68ED7C2D1F395ABD0052AC91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C2B1F395ABD0052AC91 /* Main.storyboard */; };
@@ -14,6 +16,72 @@
 		68ED7C321F395ABD0052AC91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C301F395ABD0052AC91 /* LaunchScreen.storyboard */; };
 		68ED7C3D1F395ABD0052AC91 /* fgoLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ED7C3C1F395ABD0052AC91 /* fgoLogTests.swift */; };
 		68ED7C481F395ABD0052AC91 /* fgoLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ED7C471F395ABD0052AC91 /* fgoLogUITests.swift */; };
+		68ED7C561F3960C30052AC91 /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ED7C551F3960C30052AC91 /* Quest.swift */; };
+		68ED7C991F3967F30052AC91 /* abura.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C581F3967F30052AC91 /* abura.png */; };
+		68ED7C9A1F3967F30052AC91 /* akasi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C591F3967F30052AC91 /* akasi.png */; };
+		68ED7C9B1F3967F30052AC91 /* baby.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C5A1F3967F30052AC91 /* baby.png */; };
+		68ED7C9C1F3967F30052AC91 /* dokubari.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C5B1F3967F30052AC91 /* dokubari.png */; };
+		68ED7C9D1F3967F30052AC91 /* gekirinn.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C5C1F3967F30052AC91 /* gekirinn.png */; };
+		68ED7C9E1F3967F30052AC91 /* haguruma.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C5D1F3967F30052AC91 /* haguruma.png */; };
+		68ED7C9F1F3967F30052AC91 /* hane.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C5E1F3967F30052AC91 /* hane.png */; };
+		68ED7CA01F3967F30052AC91 /* hatirenn.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C5F1F3967F30052AC91 /* hatirenn.png */; };
+		68ED7CA11F3967F30052AC91 /* hebi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C601F3967F30052AC91 /* hebi.png */; };
+		68ED7CA21F3967F30052AC91 /* hidume.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C611F3967F30052AC91 /* hidume.png */; };
+		68ED7CA31F3967F30052AC91 /* hone.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C621F3967F30052AC91 /* hone.png */; };
+		68ED7CA41F3967F30052AC91 /* jutuhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C631F3967F30052AC91 /* jutuhi.png */; };
+		68ED7CA51F3967F30052AC91 /* jutuki.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C641F3967F30052AC91 /* jutuki.png */; };
+		68ED7CA61F3967F30052AC91 /* jutuma.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C651F3967F30052AC91 /* jutuma.png */; };
+		68ED7CA71F3967F30052AC91 /* jutumo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C661F3967F30052AC91 /* jutumo.png */; };
+		68ED7CA81F3967F30052AC91 /* jutupi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C671F3967F30052AC91 /* jutupi.png */; };
+		68ED7CA91F3967F30052AC91 /* kaigara.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C681F3967F30052AC91 /* kaigara.png */; };
+		68ED7CAA1F3967F30052AC91 /* kenhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C691F3967F30052AC91 /* kenhi.png */; };
+		68ED7CAB1F3967F30052AC91 /* kenki.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C6A1F3967F30052AC91 /* kenki.png */; };
+		68ED7CAC1F3967F30052AC91 /* kenma.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C6B1F3967F30052AC91 /* kenma.png */; };
+		68ED7CAD1F3967F30052AC91 /* kenmo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C6C1F3967F30052AC91 /* kenmo.png */; };
+		68ED7CAE1F3967F30052AC91 /* kenpi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C6D1F3967F30052AC91 /* kenpi.png */; };
+		68ED7CAF1F3967F30052AC91 /* kiba.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C6E1F3967F30052AC91 /* kiba.png */; };
+		68ED7CB01F3967F30052AC91 /* kihi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C6F1F3967F30052AC91 /* kihi.png */; };
+		68ED7CB11F3967F30052AC91 /* kiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C701F3967F30052AC91 /* kiki.png */; };
+		68ED7CB21F3967F30052AC91 /* kima.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C711F3967F30052AC91 /* kima.png */; };
+		68ED7CB31F3967F30052AC91 /* kimo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C721F3967F30052AC91 /* kimo.png */; };
+		68ED7CB41F3967F30052AC91 /* kipi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C731F3967F30052AC91 /* kipi.png */; };
+		68ED7CB51F3967F30052AC91 /* kunshou.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C741F3967F30052AC91 /* kunshou.png */; };
+		68ED7CB61F3967F30052AC91 /* kusari.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C751F3967F30052AC91 /* kusari.png */; };
+		68ED7CB71F3967F30052AC91 /* kyouhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C761F3967F30052AC91 /* kyouhi.png */; };
+		68ED7CB81F3967F30052AC91 /* kyouki.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C771F3967F30052AC91 /* kyouki.png */; };
+		68ED7CB91F3967F30052AC91 /* kyouma.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C781F3967F30052AC91 /* kyouma.png */; };
+		68ED7CBA1F3967F30052AC91 /* kyoumo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C791F3967F30052AC91 /* kyoumo.png */; };
+		68ED7CBB1F3967F30052AC91 /* kyoupi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C7A1F3967F30052AC91 /* kyoupi.png */; };
+		68ED7CBC1F3967F30052AC91 /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C7B1F3967F30052AC91 /* page.png */; };
+		68ED7CBD1F3967F30052AC91 /* ranpu.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C7C1F3967F30052AC91 /* ranpu.png */; };
+		68ED7CBE1F3967F30052AC91 /* rantann.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C7D1F3967F30052AC91 /* rantann.png */; };
+		68ED7CBF1F3967F30052AC91 /* reikonn.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C7E1F3967F30052AC91 /* reikonn.png */; };
+		68ED7CC01F3967F30052AC91 /* ruiseki.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C7F1F3967F30052AC91 /* ruiseki.png */; };
+		68ED7CC11F3967F30052AC91 /* satuhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C801F3967F30052AC91 /* satuhi.png */; };
+		68ED7CC21F3967F30052AC91 /* satuki.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C811F3967F30052AC91 /* satuki.png */; };
+		68ED7CC31F3967F30052AC91 /* satuma.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C821F3967F30052AC91 /* satuma.png */; };
+		68ED7CC41F3967F30052AC91 /* satumo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C831F3967F30052AC91 /* satumo.png */; };
+		68ED7CC51F3967F30052AC91 /* satupi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C841F3967F30052AC91 /* satupi.png */; };
+		68ED7CC61F3967F30052AC91 /* sinshu.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C851F3967F30052AC91 /* sinshu.png */; };
+		68ED7CC71F3967F30052AC91 /* sinzou.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C861F3967F30052AC91 /* sinzou.png */; };
+		68ED7CC81F3967F30052AC91 /* sukarabe.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C871F3967F30052AC91 /* sukarabe.png */; };
+		68ED7CC91F3967F30052AC91 /* tane.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C881F3967F30052AC91 /* tane.png */; };
+		68ED7CCA1F3967F30052AC91 /* tanseki.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C891F3967F30052AC91 /* tanseki.png */; };
+		68ED7CCB1F3967F30052AC91 /* tiri.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C8A1F3967F30052AC91 /* tiri.png */; };
+		68ED7CCC1F3967F30052AC91 /* tume.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C8B1F3967F30052AC91 /* tume.png */; };
+		68ED7CCD1F3967F30052AC91 /* ubuge.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C8C1F3967F30052AC91 /* ubuge.png */; };
+		68ED7CCE1F3967F30052AC91 /* yarihi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C8D1F3967F30052AC91 /* yarihi.png */; };
+		68ED7CCF1F3967F30052AC91 /* yariki.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C8E1F3967F30052AC91 /* yariki.png */; };
+		68ED7CD01F3967F30052AC91 /* yarima.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C8F1F3967F30052AC91 /* yarima.png */; };
+		68ED7CD11F3967F30052AC91 /* yarimo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C901F3967F30052AC91 /* yarimo.png */; };
+		68ED7CD21F3967F30052AC91 /* yaripi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C911F3967F30052AC91 /* yaripi.png */; };
+		68ED7CD31F3967F30052AC91 /* youkaku.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C921F3967F30052AC91 /* youkaku.png */; };
+		68ED7CD41F3967F30052AC91 /* yumihi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C931F3967F30052AC91 /* yumihi.png */; };
+		68ED7CD51F3967F30052AC91 /* yumiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C941F3967F30052AC91 /* yumiki.png */; };
+		68ED7CD61F3967F30052AC91 /* yumima.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C951F3967F30052AC91 /* yumima.png */; };
+		68ED7CD71F3967F30052AC91 /* yumimo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C961F3967F30052AC91 /* yumimo.png */; };
+		68ED7CD81F3967F30052AC91 /* yumipi.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C971F3967F30052AC91 /* yumipi.png */; };
+		68ED7CD91F3967F30052AC91 /* zuieki.png in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C981F3967F30052AC91 /* zuieki.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +102,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68726DF71F3BF68B0078ED22 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		68726DF81F3BF68B0078ED22 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		68ED7C241F395ABD0052AC91 /* fgoLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fgoLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68ED7C271F395ABD0052AC91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68ED7C291F395ABD0052AC91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +117,72 @@
 		68ED7C431F395ABD0052AC91 /* fgoLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fgoLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68ED7C471F395ABD0052AC91 /* fgoLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fgoLogUITests.swift; sourceTree = "<group>"; };
 		68ED7C491F395ABD0052AC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68ED7C551F3960C30052AC91 /* Quest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		68ED7C581F3967F30052AC91 /* abura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abura.png; sourceTree = "<group>"; };
+		68ED7C591F3967F30052AC91 /* akasi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = akasi.png; sourceTree = "<group>"; };
+		68ED7C5A1F3967F30052AC91 /* baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby.png; sourceTree = "<group>"; };
+		68ED7C5B1F3967F30052AC91 /* dokubari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dokubari.png; sourceTree = "<group>"; };
+		68ED7C5C1F3967F30052AC91 /* gekirinn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gekirinn.png; sourceTree = "<group>"; };
+		68ED7C5D1F3967F30052AC91 /* haguruma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haguruma.png; sourceTree = "<group>"; };
+		68ED7C5E1F3967F30052AC91 /* hane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hane.png; sourceTree = "<group>"; };
+		68ED7C5F1F3967F30052AC91 /* hatirenn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hatirenn.png; sourceTree = "<group>"; };
+		68ED7C601F3967F30052AC91 /* hebi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hebi.png; sourceTree = "<group>"; };
+		68ED7C611F3967F30052AC91 /* hidume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hidume.png; sourceTree = "<group>"; };
+		68ED7C621F3967F30052AC91 /* hone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hone.png; sourceTree = "<group>"; };
+		68ED7C631F3967F30052AC91 /* jutuhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jutuhi.png; sourceTree = "<group>"; };
+		68ED7C641F3967F30052AC91 /* jutuki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jutuki.png; sourceTree = "<group>"; };
+		68ED7C651F3967F30052AC91 /* jutuma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jutuma.png; sourceTree = "<group>"; };
+		68ED7C661F3967F30052AC91 /* jutumo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jutumo.png; sourceTree = "<group>"; };
+		68ED7C671F3967F30052AC91 /* jutupi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jutupi.png; sourceTree = "<group>"; };
+		68ED7C681F3967F30052AC91 /* kaigara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaigara.png; sourceTree = "<group>"; };
+		68ED7C691F3967F30052AC91 /* kenhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kenhi.png; sourceTree = "<group>"; };
+		68ED7C6A1F3967F30052AC91 /* kenki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kenki.png; sourceTree = "<group>"; };
+		68ED7C6B1F3967F30052AC91 /* kenma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kenma.png; sourceTree = "<group>"; };
+		68ED7C6C1F3967F30052AC91 /* kenmo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kenmo.png; sourceTree = "<group>"; };
+		68ED7C6D1F3967F30052AC91 /* kenpi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kenpi.png; sourceTree = "<group>"; };
+		68ED7C6E1F3967F30052AC91 /* kiba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiba.png; sourceTree = "<group>"; };
+		68ED7C6F1F3967F30052AC91 /* kihi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kihi.png; sourceTree = "<group>"; };
+		68ED7C701F3967F30052AC91 /* kiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiki.png; sourceTree = "<group>"; };
+		68ED7C711F3967F30052AC91 /* kima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kima.png; sourceTree = "<group>"; };
+		68ED7C721F3967F30052AC91 /* kimo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kimo.png; sourceTree = "<group>"; };
+		68ED7C731F3967F30052AC91 /* kipi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kipi.png; sourceTree = "<group>"; };
+		68ED7C741F3967F30052AC91 /* kunshou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kunshou.png; sourceTree = "<group>"; };
+		68ED7C751F3967F30052AC91 /* kusari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kusari.png; sourceTree = "<group>"; };
+		68ED7C761F3967F30052AC91 /* kyouhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyouhi.png; sourceTree = "<group>"; };
+		68ED7C771F3967F30052AC91 /* kyouki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyouki.png; sourceTree = "<group>"; };
+		68ED7C781F3967F30052AC91 /* kyouma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyouma.png; sourceTree = "<group>"; };
+		68ED7C791F3967F30052AC91 /* kyoumo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyoumo.png; sourceTree = "<group>"; };
+		68ED7C7A1F3967F30052AC91 /* kyoupi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyoupi.png; sourceTree = "<group>"; };
+		68ED7C7B1F3967F30052AC91 /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page.png; sourceTree = "<group>"; };
+		68ED7C7C1F3967F30052AC91 /* ranpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ranpu.png; sourceTree = "<group>"; };
+		68ED7C7D1F3967F30052AC91 /* rantann.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rantann.png; sourceTree = "<group>"; };
+		68ED7C7E1F3967F30052AC91 /* reikonn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reikonn.png; sourceTree = "<group>"; };
+		68ED7C7F1F3967F30052AC91 /* ruiseki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruiseki.png; sourceTree = "<group>"; };
+		68ED7C801F3967F30052AC91 /* satuhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satuhi.png; sourceTree = "<group>"; };
+		68ED7C811F3967F30052AC91 /* satuki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satuki.png; sourceTree = "<group>"; };
+		68ED7C821F3967F30052AC91 /* satuma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satuma.png; sourceTree = "<group>"; };
+		68ED7C831F3967F30052AC91 /* satumo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satumo.png; sourceTree = "<group>"; };
+		68ED7C841F3967F30052AC91 /* satupi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satupi.png; sourceTree = "<group>"; };
+		68ED7C851F3967F30052AC91 /* sinshu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sinshu.png; sourceTree = "<group>"; };
+		68ED7C861F3967F30052AC91 /* sinzou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sinzou.png; sourceTree = "<group>"; };
+		68ED7C871F3967F30052AC91 /* sukarabe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sukarabe.png; sourceTree = "<group>"; };
+		68ED7C881F3967F30052AC91 /* tane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tane.png; sourceTree = "<group>"; };
+		68ED7C891F3967F30052AC91 /* tanseki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanseki.png; sourceTree = "<group>"; };
+		68ED7C8A1F3967F30052AC91 /* tiri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiri.png; sourceTree = "<group>"; };
+		68ED7C8B1F3967F30052AC91 /* tume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tume.png; sourceTree = "<group>"; };
+		68ED7C8C1F3967F30052AC91 /* ubuge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ubuge.png; sourceTree = "<group>"; };
+		68ED7C8D1F3967F30052AC91 /* yarihi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yarihi.png; sourceTree = "<group>"; };
+		68ED7C8E1F3967F30052AC91 /* yariki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yariki.png; sourceTree = "<group>"; };
+		68ED7C8F1F3967F30052AC91 /* yarima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yarima.png; sourceTree = "<group>"; };
+		68ED7C901F3967F30052AC91 /* yarimo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yarimo.png; sourceTree = "<group>"; };
+		68ED7C911F3967F30052AC91 /* yaripi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yaripi.png; sourceTree = "<group>"; };
+		68ED7C921F3967F30052AC91 /* youkaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youkaku.png; sourceTree = "<group>"; };
+		68ED7C931F3967F30052AC91 /* yumihi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yumihi.png; sourceTree = "<group>"; };
+		68ED7C941F3967F30052AC91 /* yumiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yumiki.png; sourceTree = "<group>"; };
+		68ED7C951F3967F30052AC91 /* yumima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yumima.png; sourceTree = "<group>"; };
+		68ED7C961F3967F30052AC91 /* yumimo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yumimo.png; sourceTree = "<group>"; };
+		68ED7C971F3967F30052AC91 /* yumipi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yumipi.png; sourceTree = "<group>"; };
+		68ED7C981F3967F30052AC91 /* zuieki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zuieki.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +233,16 @@
 		68ED7C261F395ABD0052AC91 /* fgoLog */ = {
 			isa = PBXGroup;
 			children = (
+				68ED7C571F3967F30052AC91 /* fgo素材 */,
 				68ED7C271F395ABD0052AC91 /* AppDelegate.swift */,
 				68ED7C291F395ABD0052AC91 /* ViewController.swift */,
 				68ED7C2B1F395ABD0052AC91 /* Main.storyboard */,
 				68ED7C2E1F395ABD0052AC91 /* Assets.xcassets */,
 				68ED7C301F395ABD0052AC91 /* LaunchScreen.storyboard */,
 				68ED7C331F395ABD0052AC91 /* Info.plist */,
+				68ED7C551F3960C30052AC91 /* Quest.swift */,
+				68726DF71F3BF68B0078ED22 /* CustomTableViewCell.swift */,
+				68726DF81F3BF68B0078ED22 /* CustomTableViewCell.xib */,
 			);
 			path = fgoLog;
 			sourceTree = "<group>";
@@ -123,6 +263,79 @@
 				68ED7C491F395ABD0052AC91 /* Info.plist */,
 			);
 			path = fgoLogUITests;
+			sourceTree = "<group>";
+		};
+		68ED7C571F3967F30052AC91 /* fgo素材 */ = {
+			isa = PBXGroup;
+			children = (
+				68ED7C581F3967F30052AC91 /* abura.png */,
+				68ED7C591F3967F30052AC91 /* akasi.png */,
+				68ED7C5A1F3967F30052AC91 /* baby.png */,
+				68ED7C5B1F3967F30052AC91 /* dokubari.png */,
+				68ED7C5C1F3967F30052AC91 /* gekirinn.png */,
+				68ED7C5D1F3967F30052AC91 /* haguruma.png */,
+				68ED7C5E1F3967F30052AC91 /* hane.png */,
+				68ED7C5F1F3967F30052AC91 /* hatirenn.png */,
+				68ED7C601F3967F30052AC91 /* hebi.png */,
+				68ED7C611F3967F30052AC91 /* hidume.png */,
+				68ED7C621F3967F30052AC91 /* hone.png */,
+				68ED7C631F3967F30052AC91 /* jutuhi.png */,
+				68ED7C641F3967F30052AC91 /* jutuki.png */,
+				68ED7C651F3967F30052AC91 /* jutuma.png */,
+				68ED7C661F3967F30052AC91 /* jutumo.png */,
+				68ED7C671F3967F30052AC91 /* jutupi.png */,
+				68ED7C681F3967F30052AC91 /* kaigara.png */,
+				68ED7C691F3967F30052AC91 /* kenhi.png */,
+				68ED7C6A1F3967F30052AC91 /* kenki.png */,
+				68ED7C6B1F3967F30052AC91 /* kenma.png */,
+				68ED7C6C1F3967F30052AC91 /* kenmo.png */,
+				68ED7C6D1F3967F30052AC91 /* kenpi.png */,
+				68ED7C6E1F3967F30052AC91 /* kiba.png */,
+				68ED7C6F1F3967F30052AC91 /* kihi.png */,
+				68ED7C701F3967F30052AC91 /* kiki.png */,
+				68ED7C711F3967F30052AC91 /* kima.png */,
+				68ED7C721F3967F30052AC91 /* kimo.png */,
+				68ED7C731F3967F30052AC91 /* kipi.png */,
+				68ED7C741F3967F30052AC91 /* kunshou.png */,
+				68ED7C751F3967F30052AC91 /* kusari.png */,
+				68ED7C761F3967F30052AC91 /* kyouhi.png */,
+				68ED7C771F3967F30052AC91 /* kyouki.png */,
+				68ED7C781F3967F30052AC91 /* kyouma.png */,
+				68ED7C791F3967F30052AC91 /* kyoumo.png */,
+				68ED7C7A1F3967F30052AC91 /* kyoupi.png */,
+				68ED7C7B1F3967F30052AC91 /* page.png */,
+				68ED7C7C1F3967F30052AC91 /* ranpu.png */,
+				68ED7C7D1F3967F30052AC91 /* rantann.png */,
+				68ED7C7E1F3967F30052AC91 /* reikonn.png */,
+				68ED7C7F1F3967F30052AC91 /* ruiseki.png */,
+				68ED7C801F3967F30052AC91 /* satuhi.png */,
+				68ED7C811F3967F30052AC91 /* satuki.png */,
+				68ED7C821F3967F30052AC91 /* satuma.png */,
+				68ED7C831F3967F30052AC91 /* satumo.png */,
+				68ED7C841F3967F30052AC91 /* satupi.png */,
+				68ED7C851F3967F30052AC91 /* sinshu.png */,
+				68ED7C861F3967F30052AC91 /* sinzou.png */,
+				68ED7C871F3967F30052AC91 /* sukarabe.png */,
+				68ED7C881F3967F30052AC91 /* tane.png */,
+				68ED7C891F3967F30052AC91 /* tanseki.png */,
+				68ED7C8A1F3967F30052AC91 /* tiri.png */,
+				68ED7C8B1F3967F30052AC91 /* tume.png */,
+				68ED7C8C1F3967F30052AC91 /* ubuge.png */,
+				68ED7C8D1F3967F30052AC91 /* yarihi.png */,
+				68ED7C8E1F3967F30052AC91 /* yariki.png */,
+				68ED7C8F1F3967F30052AC91 /* yarima.png */,
+				68ED7C901F3967F30052AC91 /* yarimo.png */,
+				68ED7C911F3967F30052AC91 /* yaripi.png */,
+				68ED7C921F3967F30052AC91 /* youkaku.png */,
+				68ED7C931F3967F30052AC91 /* yumihi.png */,
+				68ED7C941F3967F30052AC91 /* yumiki.png */,
+				68ED7C951F3967F30052AC91 /* yumima.png */,
+				68ED7C961F3967F30052AC91 /* yumimo.png */,
+				68ED7C971F3967F30052AC91 /* yumipi.png */,
+				68ED7C981F3967F30052AC91 /* zuieki.png */,
+			);
+			name = "fgo素材";
+			path = "../../../fgo素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +406,7 @@
 				TargetAttributes = {
 					68ED7C231F395ABD0052AC91 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 84Q47FTZCU;
 						ProvisioningStyle = Automatic;
 					};
 					68ED7C371F395ABD0052AC91 = {
@@ -232,9 +446,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68ED7CB71F3967F30052AC91 /* kyouhi.png in Resources */,
+				68ED7CAF1F3967F30052AC91 /* kiba.png in Resources */,
+				68ED7CBC1F3967F30052AC91 /* page.png in Resources */,
+				68ED7CB41F3967F30052AC91 /* kipi.png in Resources */,
+				68ED7CCA1F3967F30052AC91 /* tanseki.png in Resources */,
+				68ED7CD01F3967F30052AC91 /* yarima.png in Resources */,
 				68ED7C321F395ABD0052AC91 /* LaunchScreen.storyboard in Resources */,
+				68ED7CB01F3967F30052AC91 /* kihi.png in Resources */,
+				68ED7CB11F3967F30052AC91 /* kiki.png in Resources */,
+				68ED7CD31F3967F30052AC91 /* youkaku.png in Resources */,
+				68ED7CC91F3967F30052AC91 /* tane.png in Resources */,
+				68ED7CA31F3967F30052AC91 /* hone.png in Resources */,
+				68ED7CCE1F3967F30052AC91 /* yarihi.png in Resources */,
+				68ED7C9F1F3967F30052AC91 /* hane.png in Resources */,
+				68ED7CCC1F3967F30052AC91 /* tume.png in Resources */,
+				68ED7CD71F3967F30052AC91 /* yumimo.png in Resources */,
+				68ED7CA21F3967F30052AC91 /* hidume.png in Resources */,
 				68ED7C2F1F395ABD0052AC91 /* Assets.xcassets in Resources */,
+				68ED7CAE1F3967F30052AC91 /* kenpi.png in Resources */,
+				68ED7CC61F3967F30052AC91 /* sinshu.png in Resources */,
+				68ED7CD41F3967F30052AC91 /* yumihi.png in Resources */,
+				68ED7CB61F3967F30052AC91 /* kusari.png in Resources */,
+				68ED7CD51F3967F30052AC91 /* yumiki.png in Resources */,
+				68ED7C9C1F3967F30052AC91 /* dokubari.png in Resources */,
+				68ED7CD21F3967F30052AC91 /* yaripi.png in Resources */,
+				68ED7CC01F3967F30052AC91 /* ruiseki.png in Resources */,
+				68ED7CB51F3967F30052AC91 /* kunshou.png in Resources */,
+				68ED7CCD1F3967F30052AC91 /* ubuge.png in Resources */,
+				68ED7CA01F3967F30052AC91 /* hatirenn.png in Resources */,
+				68ED7CB31F3967F30052AC91 /* kimo.png in Resources */,
+				68ED7CA71F3967F30052AC91 /* jutumo.png in Resources */,
+				68ED7CBA1F3967F30052AC91 /* kyoumo.png in Resources */,
+				68ED7C9E1F3967F30052AC91 /* haguruma.png in Resources */,
+				68ED7CBF1F3967F30052AC91 /* reikonn.png in Resources */,
+				68ED7C9A1F3967F30052AC91 /* akasi.png in Resources */,
+				68ED7CAB1F3967F30052AC91 /* kenki.png in Resources */,
+				68ED7CC21F3967F30052AC91 /* satuki.png in Resources */,
+				68ED7CBE1F3967F30052AC91 /* rantann.png in Resources */,
+				68ED7CCB1F3967F30052AC91 /* tiri.png in Resources */,
+				68ED7CA91F3967F30052AC91 /* kaigara.png in Resources */,
+				68ED7CA61F3967F30052AC91 /* jutuma.png in Resources */,
+				68ED7CA51F3967F30052AC91 /* jutuki.png in Resources */,
+				68ED7CBB1F3967F30052AC91 /* kyoupi.png in Resources */,
+				68ED7CAA1F3967F30052AC91 /* kenhi.png in Resources */,
 				68ED7C2D1F395ABD0052AC91 /* Main.storyboard in Resources */,
+				68ED7CC71F3967F30052AC91 /* sinzou.png in Resources */,
+				68ED7CD91F3967F30052AC91 /* zuieki.png in Resources */,
+				68ED7C991F3967F30052AC91 /* abura.png in Resources */,
+				68ED7CD11F3967F30052AC91 /* yarimo.png in Resources */,
+				68ED7CC41F3967F30052AC91 /* satumo.png in Resources */,
+				68ED7CCF1F3967F30052AC91 /* yariki.png in Resources */,
+				68ED7C9D1F3967F30052AC91 /* gekirinn.png in Resources */,
+				68ED7CD61F3967F30052AC91 /* yumima.png in Resources */,
+				68ED7CC51F3967F30052AC91 /* satupi.png in Resources */,
+				68ED7CC81F3967F30052AC91 /* sukarabe.png in Resources */,
+				68ED7CA81F3967F30052AC91 /* jutupi.png in Resources */,
+				68ED7CB21F3967F30052AC91 /* kima.png in Resources */,
+				68ED7CAC1F3967F30052AC91 /* kenma.png in Resources */,
+				68ED7C9B1F3967F30052AC91 /* baby.png in Resources */,
+				68ED7CBD1F3967F30052AC91 /* ranpu.png in Resources */,
+				68ED7CA11F3967F30052AC91 /* hebi.png in Resources */,
+				68ED7CC31F3967F30052AC91 /* satuma.png in Resources */,
+				68ED7CC11F3967F30052AC91 /* satuhi.png in Resources */,
+				68ED7CD81F3967F30052AC91 /* yumipi.png in Resources */,
+				68ED7CAD1F3967F30052AC91 /* kenmo.png in Resources */,
+				68726DFA1F3BF68B0078ED22 /* CustomTableViewCell.xib in Resources */,
+				68ED7CA41F3967F30052AC91 /* jutuhi.png in Resources */,
+				68ED7CB81F3967F30052AC91 /* kyouki.png in Resources */,
+				68ED7CB91F3967F30052AC91 /* kyouma.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +540,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				68ED7C2A1F395ABD0052AC91 /* ViewController.swift in Sources */,
+				68726DF91F3BF68B0078ED22 /* CustomTableViewCell.swift in Sources */,
+				68ED7C561F3960C30052AC91 /* Quest.swift in Sources */,
 				68ED7C281F395ABD0052AC91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +694,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84Q47FTZCU;
 				INFOPLIST_FILE = fgoLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.fgoLog;
@@ -424,6 +707,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84Q47FTZCU;
 				INFOPLIST_FILE = fgoLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.fgoLog;
@@ -505,6 +789,7 @@
 				68ED7C4E1F395ABD0052AC91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68ED7C4F1F395ABD0052AC91 /* Build configuration list for PBXNativeTarget "fgoLogTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +798,7 @@
 				68ED7C511F395ABD0052AC91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68ED7C521F395ABD0052AC91 /* Build configuration list for PBXNativeTarget "fgoLogUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +807,7 @@
 				68ED7C541F395ABD0052AC91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
