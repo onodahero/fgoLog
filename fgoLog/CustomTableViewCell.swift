@@ -20,6 +20,7 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var recordLabel: UILabel!
     @IBOutlet weak var plusButton: UIButton!
     @IBOutlet weak var minusButton: UIButton!
+    @IBOutlet weak var imageview: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

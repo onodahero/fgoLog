@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		68726DF91F3BF68B0078ED22 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68726DF71F3BF68B0078ED22 /* CustomTableViewCell.swift */; };
 		68726DFA1F3BF68B0078ED22 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68726DF81F3BF68B0078ED22 /* CustomTableViewCell.xib */; };
+		68726E001F3D77CA0078ED22 /* ringo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68726DFF1F3D77CA0078ED22 /* ringo.png */; };
 		68ED7C281F395ABD0052AC91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ED7C271F395ABD0052AC91 /* AppDelegate.swift */; };
 		68ED7C2A1F395ABD0052AC91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ED7C291F395ABD0052AC91 /* ViewController.swift */; };
 		68ED7C2D1F395ABD0052AC91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68ED7C2B1F395ABD0052AC91 /* Main.storyboard */; };
@@ -104,6 +105,7 @@
 /* Begin PBXFileReference section */
 		68726DF71F3BF68B0078ED22 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		68726DF81F3BF68B0078ED22 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		68726DFF1F3D77CA0078ED22 /* ringo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ringo.png; sourceTree = "<group>"; };
 		68ED7C241F395ABD0052AC91 /* fgoLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fgoLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68ED7C271F395ABD0052AC91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68ED7C291F395ABD0052AC91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -304,6 +306,7 @@
 				68ED7C791F3967F30052AC91 /* kyoumo.png */,
 				68ED7C7A1F3967F30052AC91 /* kyoupi.png */,
 				68ED7C7B1F3967F30052AC91 /* page.png */,
+				68726DFF1F3D77CA0078ED22 /* ringo.png */,
 				68ED7C7C1F3967F30052AC91 /* ranpu.png */,
 				68ED7C7D1F3967F30052AC91 /* rantann.png */,
 				68ED7C7E1F3967F30052AC91 /* reikonn.png */,
@@ -501,6 +504,7 @@
 				68ED7CD61F3967F30052AC91 /* yumima.png in Resources */,
 				68ED7CC51F3967F30052AC91 /* satupi.png in Resources */,
 				68ED7CC81F3967F30052AC91 /* sukarabe.png in Resources */,
+				68726E001F3D77CA0078ED22 /* ringo.png in Resources */,
 				68ED7CA81F3967F30052AC91 /* jutupi.png in Resources */,
 				68ED7CB21F3967F30052AC91 /* kima.png in Resources */,
 				68ED7CAC1F3967F30052AC91 /* kenma.png in Resources */,

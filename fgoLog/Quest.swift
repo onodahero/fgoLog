@@ -31,8 +31,14 @@ class Drop {
     
     var name: String = ""
     var count: Int = 0
+    var imagename: String!
     
-    init(name: String) {
+    init(name: String, imagename: String) {
         self.name = name
+        self.imagename = imagename
+    }
+    
+    func getImage() -> UIImage{
+        return UIImage(named: imagename)!
     }
 }
